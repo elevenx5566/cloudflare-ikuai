@@ -39,7 +39,7 @@ npm run build
 
 - ```  
   cloudflare-ikuai:
-    image: chen7011/cloudflare-ikuai:latest
+    image: elevenx5566/cloudflare-ikuai:latest
     container_name: cloudflare-ikuai
     restart: unless-stopped
     network_mode: "host"
@@ -60,7 +60,7 @@ npm run build
     -e TZ=Asia/Shanghai \
     -v ./cloudflare-ikuai/configs:/app/configs \
     --memory=512m \
-    chen7011/cloudflare-ikuai:latest
+    elevenx5566/cloudflare-ikuai:latest
 
   ```
   
